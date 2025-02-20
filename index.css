@@ -1,0 +1,633 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.navbar-item{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }  
+.navstyle {
+    font-family: roboto;
+    color: red;
+}
+
+/*know more container*/
+
+.knowmoreContainer {
+    background: radial-gradient(#FFEF00, #FF3186);
+}
+
+.our-life-style-heading {
+    font-family: Roboto;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.knowmoreimg {
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    width: 100vh;
+    height: 100vh;
+}
+
+.knowmoreimagecontainer {
+    margin: 24px;
+    text-align: center;
+}
+
+.knowmore-content {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.img-icon {
+    height: 100px;
+    width: 140px;
+}
+
+.helping-heading {
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+
+/*nav css*/
+
+#options {
+    color: #2e4053;
+    font-family: fantasy;
+    font-style: italic;
+}
+
+.navbar-logo {
+    height: 70px;
+    width: 99px;
+}
+
+
+/*banner section css*/
+
+.healthysectionBannercontainer {
+    background-image: url("https://gradient.page/_next/image?url=%2Fcdn%2Fgreen-glory%2Fgreen-glory-002.jpg&w=1920&q=75");
+    background-size: cover;
+    text-align: center;
+
+}
+
+.nutrition-logo {
+    height: 290px;
+    width: 300px;
+    border-radius: 150px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.heading {
+    font-family:roboto;
+    font-style:italic;
+    font-weight:bold;
+    font-size: 30px;
+}
+
+.know-more-button {
+    background-color: white;
+    border-radius: 30px;
+    border: none;
+    height: 33px;
+    width: 116px;
+    font-family: roboto;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 19px;
+
+}
+
+
+/*introduction css*/
+
+.introCard {
+    text-align: center;
+}
+
+.introHeading {
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.introparagraph {
+    font-family: scan-serif;
+    font-weight: bold;
+}
+
+
+.secondHeading {
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.coachesHeading {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.nameHeading {
+    font-family: Roboto;
+    font-size: 19px;
+    margin-top: 6px;
+    text-align:center
+}
+
+.nutritionlogo {
+    height: 48vh;
+}
+
+
+/*our services css*/
+
+.serviceHeading {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.serviceParagraph {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 29px;
+}
+
+.serviceCard1 {
+    background-color: #FFB6C1;
+    margin-top: 20px;
+}
+
+.serviceCard2 {
+    background-color: #ADD8E6;
+    margin-top: 20px;
+}
+
+.serviceCard3 {
+    background-color: #FFB6C1;
+    margin-top: 20px;
+}
+
+
+.cardParagraph1 {
+    color: white;
+
+}
+
+.cardParagraph2 {
+    color: white;
+
+}
+
+.cardParagraph3 {
+    color: white;
+
+}
+
+.nutrition {
+    color: #C49102;
+}
+
+.cardsContainer {
+    text-align: center;
+}
+
+
+
+.detailedCard {
+    border-radius: 15px;
+}
+
+.logo {
+    border-radius: 16px;
+}
+
+.cardTitle {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 18px;
+    color: #323f4b;
+    margin-top: 20px;
+}
+
+.service-link {
+    font-family: Roboto;
+    color: #d0b200;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.cardContainer {
+    background-color: #ADD8E6;
+    border-radius: 15px;
+    text-align: center;
+    padding: 6px;
+    margin: 10px;
+}
+
+.cardImg {
+    height: 170px;
+    width: 200px;
+    margin: 6px;
+}
+
+.cardImg1 {
+    height: 140px;
+    width: 180px;
+}
+
+.cardHeading {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 6px;
+}
+
+.cardContent {
+    font-family: Roboto;
+    font-size: 14px;
+
+}
+
+.whychooseUsHeading {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 15px;
+
+}
+
+.unorder-list {
+    margin-top: 10px;
+    list-style-type: disc;
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+.whyChooseUsContainer {
+    background-color: #fafafa;
+
+}
+
+.whychooseContainer {
+    background: linear-gradient(45deg, #FEC5E5, #A6E3E9, #FFE5B4, #B39CD0);
+    border-radius: 100px;
+    text-align: center;
+}
+
+.cardContent2 {
+    font-family: Roboto;
+    font-size: 25px;
+    padding: 35px;
+}
+
+.resultHeading {
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.highlightHeading {
+    color: #AD2E45;
+}
+
+
+
+
+/*results css */
+
+.resultsContainer {
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.resultsHeading1 {
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 70px;
+    margin-top: 25px;
+    color: white;
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+.detailed-view-card-container {
+      border-bottom-right-radius: 8px;
+      border-bottom-left-radius: 8px;
+      margin: 60px;
+    
+    
+}
+
+
+/*CLIENTS RESULTS css*/
+
+
+.image {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    height: 85vh;
+}
+
+.slides-container {
+    background-color: #E9E6DD;
+}
+
+.content-container {
+    font-family: Roboto;
+    text-align: center;
+    font-size: 29px;
+    padding-top: 30px;
+}
+
+
+
+
+
+
+/*thanking css*/
+
+.thankingNoteContainer {
+    background-image: radial-gradient(#fae38c, #F8B7CD);
+
+}
+
+.thanking-container-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.thanking-container-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+
+}
+
+.thanking-customers-section-img {
+    width: 250px;
+    margin: 20px;
+}
+
+.follow-us-icon-container {
+    background-color: #FEE5B5;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 14px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 22px;
+    text-align: center;
+}
+
+.address-page-container {
+    background-color: #0d2436;
+}
+
+.address-page-coontent {
+    color: #959ead;
+    font-family: "Roboto";
+    font-size: 14px;
+
+}
+.address-page-coontent-spam{
+    color: #959ead;
+    font-family: "Roboto";
+    font-size: 16px;
+
+}
+
+/*our services css*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.weightloss-container {
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    padding: 10px;
+}
+
+.weightgain-container {
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.medicinefreelife-container {
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.healthylifestyle-container {
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.dailyfithour-container {
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.balancedfood-container {
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.healthyaging-container {
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.stressmanagement-container {
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    padding: 10px;
+    margin-top: 10px;
+
+}
+
+.heding {
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.list-style {
+    font-family: Roboto;
+    font-size: 25px;
+}
+
+.weightloss-heading {
+    font-family: Roboto;
+    color: #6a7279;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 60px;
+    text-decoration: underline;
+}
+
+
+/*gallery css*/
+
+.gallery-container {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.background-container1 {
+    height: 64vh;
+    padding-top: 8px;
+}
+
+.background-container2 {
+    height: 64vh;
+    padding-top: 8px;
+}
+
+.background-container3 {
+    height: 60vh;
+}
+
+.recognitions-heading1 {
+    font-family: Roboto;
+    font-weight: bold;
+    color: red;
+}
+
+.recognitions-heading2 {
+    font-family: Roboto;
+    font-weight: bold;
+    color: red;
+}
+
+.recognitions-heading3 {
+    font-family: Roboto;
+    font-weight: bold;
+    color: red;
+}
+
+.btc-heading {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.paragraph-content {
+    font-family: Roboto;
+
+}
+
+/*gallery css8*/
+.gallery-container {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.background-container1 {
+    height: 64vh;
+    padding-top: 8px;
+}
+
+.background-container2 {
+    height: 64vh;
+    padding-top: 8px;
+}
+
+.background-container3 {
+    height: 60vh;
+}
+
+.button {
+    color: white;
+    background: black;
+    width: 178px;
+    height: 36px;
+    border-width: 0px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.button2 {
+    color: white;
+    background: black;
+    width: 138px;
+    height: 36px;
+    border-width: 0px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.back-button {
+    color: black;
+    background: white;
+    width: 70px;
+    height: 36px;
+    border-width: 0px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btc-heading {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.paragraph-content {
+    font-family: Roboto;
+
+}
+
+
+.our-recognition-container {
+    background-color: black;
+    padding: 24px;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    height: 57vh;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-image {
+    height: 50vh;
+}
+
+.recognition-importance {
+    font-family: Roboto;
+    color: white;
+    font-weight: bold;
+    padding-left: 29px;
+    font-size: 18px;
+}
+
+
+
